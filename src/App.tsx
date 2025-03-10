@@ -1,12 +1,14 @@
 import './App.css'
-import { TreeTable } from './pages/TreeTabla'
+import { MovimentacaoTable } from './pages/MovimentacaoTable'
 
 function App() {
   return (
     <>
       <div>
         <h1>Teste</h1>
-        <TreeTable/>
+        <div className='max-w-[50rem] flex justify-center aling'>
+        <MovimentacaoTable/>
+        </div>
       </div>
     </>
   )
